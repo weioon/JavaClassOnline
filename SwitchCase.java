@@ -3,7 +3,7 @@ public class SwitchCase {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int dayNum;
-        System.out.print("Please enter the day name");
+        System.out.print("Please enter the day number:");
         dayNum = scan.nextInt();
         switch(dayNum){
             case 1:
