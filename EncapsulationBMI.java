@@ -33,6 +33,6 @@ public class EncapsulationBMI {
         int height = scan.nextInt();
         System.out.print("Please enter your weight(in KG):");
         int weight = scan.nextInt();
-        System.out.println("Your name is " + person.getName() + " and you age is " + person.getAge() + " and your BMI value is " + person.calculateBMI(height, weight));
+        System.out.println("The person name is $ " + person.getName() + " and he/she is $ " + person.getAge() + " years old and his/her bmi is $ " + person.calculateBMI(height, weight));
     }
 }
